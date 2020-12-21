@@ -1,0 +1,48 @@
+ body {
+    background-image: url(gif-jogo.gif);
+    background-size: cover;
+ } 
+ .centro {
+     margin-top: 10%;
+     text-align: center;
+     color: rgb(79, 32, 122);
+     border: 5px solid black;
+     background: black;
+ }
+ h1 {
+     font-weight: bold;
+     font-size: 40px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ p {
+     padding-top: .8px;
+     font-size: 20px;
+ }
+ 
+
+ .button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ button{
+    width: 200px;
+    height: 50px;
+    background-color: #010008;
+    border: none;
+    color: rgb(79, 32, 122);
+    font-size: 20px;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ button:hover{
+    font-size: 30px;
+ }
+
+ button:active{
+     color: rgb(97, 15, 15);
+ }
+ 
